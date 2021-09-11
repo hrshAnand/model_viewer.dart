@@ -1423,7 +1423,7 @@ canvas.show {
   height: 40px;
   cursor: pointer;
   background-color: #fff;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
   border-radius: 100px;
 }
 
@@ -1435,6 +1435,10 @@ canvas.show {
   position: absolute;
   bottom: 16px;
   right: 16px;
+
+  width: 172px;
+  height: 43px;
+
   transform: scale(var(--ar-button-scale, 1));
   transform-origin: bottom right;
 }
@@ -1492,7 +1496,7 @@ canvas.show {
       <a id="default-ar-button" class="fab"
           tabindex="2"
           aria-label="View this 3D model up close">
-        ${ARGlyph}
+        ${ARGlyph} <p style="font-size:medium;padding-left: 10px">View this in AR</p>
       </a>
     </slot>
   </div>
