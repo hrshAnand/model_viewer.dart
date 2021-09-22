@@ -1435,13 +1435,13 @@ canvas.show {
 #default-ar-button {
   position: absolute;
   bottom: 20px;
-  left: 30%;
+  left: calc(50% - 86px);
 
-  width: 40%;
+  width: 172px;
   height: 43px;
 
   transform: scale(var(--ar-button-scale, 1));
-  transform-origin: bottom right;
+  transform-origin: bottom;
 }
 
 .slot.default {
