@@ -1424,7 +1424,7 @@ canvas.show {
   height: 40px;
   cursor: pointer;
   background-color: #fff;
-  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
   border-radius: 100px;
 }
 
@@ -1434,10 +1434,10 @@ canvas.show {
 
 #default-ar-button {
   position: absolute;
-  bottom: 20px;
-  left: calc(50% - 86px);
+  bottom: 22px;
+  left: calc(50% - 87px);
 
-  width: 172px;
+  width: 174px;
   height: 43px;
 
   transform: scale(var(--ar-button-scale, 1));
