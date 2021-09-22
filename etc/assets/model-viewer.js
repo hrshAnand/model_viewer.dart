@@ -1435,8 +1435,6 @@ canvas.show {
 #default-ar-button {
   position: absolute;
   bottom: 20px;
-  left: 50%;
-  right: 50%;
 
   width: 172px;
   height: 43px;
