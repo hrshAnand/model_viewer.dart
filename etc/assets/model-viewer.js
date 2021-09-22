@@ -1424,7 +1424,7 @@ canvas.show {
   height: 40px;
   cursor: pointer;
   background-color: #fff;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 12px 6px rgba(0, 0, 0, 0.15);
   border-radius: 100px;
 }
 
