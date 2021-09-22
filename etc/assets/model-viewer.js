@@ -1407,7 +1407,8 @@ canvas.show {
   -webkit-tap-highlight-color: transparent;
   user-select: none;
 
-  display: var(--ar-button-display, block);
+  margin: 0 auto;
+  display: block;
 }
 
 .slot.ar-button:not(.enabled) {
@@ -1433,8 +1434,9 @@ canvas.show {
 
 #default-ar-button {
   position: absolute;
-  bottom: 16px;
-  right: 16px;
+  bottom: 20px;
+  left: 50%;
+  right: 50%;
 
   width: 172px;
   height: 43px;
