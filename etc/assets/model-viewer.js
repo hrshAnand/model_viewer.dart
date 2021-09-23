@@ -1317,7 +1317,7 @@ canvas.show {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--poster-color, #f7eeee);
+  background-color: var(--poster-color, #fff);
   background-image: var(--poster-image, none);
 }
 
@@ -1423,7 +1423,7 @@ canvas.show {
   width: 40px;
   height: 40px;
   cursor: pointer;
-  background-color: #f2f2f2;
+  background-color: #f7eeee;
   box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.15);
   border-radius: 100px;
 }
