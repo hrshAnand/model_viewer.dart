@@ -1497,7 +1497,7 @@ canvas.show {
       <a id="default-ar-button" class="fab"
           tabindex="2"
           aria-label="View this 3D model up close">
-        ${ARGlyph} <p style="font-family:'Roboto' font-size:medium;padding-left: 10px;color:#fff;">View this in AR</p>
+        ${ARGlyph} <p style="font-family:'Roboto';font-size:medium;padding-left: 10px;color:#fff;">View this in AR</p>
       </a>
     </slot>
   </div>
