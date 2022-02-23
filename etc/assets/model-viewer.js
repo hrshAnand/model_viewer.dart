@@ -1423,7 +1423,7 @@ canvas.show {
   width: 40px;
   height: 40px;
   cursor: pointer;
-  background-color: #ff5252;
+  background-color: #2596be;
   box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.15);
   border-radius: 100px;
 }
